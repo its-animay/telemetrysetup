@@ -1,10 +1,10 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: demo-log-ml-service
+  name: telemetry-iris-app-service
 spec:
   selector:
-    app: demo-log-ml-service
+    app: telemetry-iris-app
   ports:
     - protocol: TCP
       port: 80
